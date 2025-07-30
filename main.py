@@ -36,9 +36,7 @@ try:
         if selected_values:
             filtered_df = filtered_df[filtered_df[key].isin(selected_values)]
 
-    # display the data
-           
-    st.dataframe(filtered_df)
+    
 
     # section 2 : Calculations
     no_of_cups = len(filtered_df)
